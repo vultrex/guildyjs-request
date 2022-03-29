@@ -1,0 +1,15 @@
+{
+  "name": "@guildyjs/request",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.1.5"
+  }
+}
