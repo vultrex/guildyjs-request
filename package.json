@@ -1,22 +1,22 @@
 {
-  "name": "@guildyjs/request",
-  "version": "1.0.6",
+  "name": "guildyjs-request",
+  "version": "1.0.2",
   "main": "dist/index.js",
+  "repository": "https://github.com/vultrex/guildyjs-request.git",
   "author": "J_DDev <69683068+JayyDoesDev@users.noreply.github.com>",
   "license": "MIT",
   "types": "dist/index.d.ts",
-  "private": false,
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "yarn build"
   },
-  "dependencies": {
-    "@types/node": "^17.0.23",
-    "cross-fetch": "^3.1.5"
-  },
   "devDependencies": {
+    "@types/node": "^17.0.23",
     "ts-node": "^10.7.0",
-    "ts-node-dev": "^1.1.8",
+    "ts-node-dev": "^1.1.8"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.1.5",
     "typescript": "^4.6.3"
   }
 }
